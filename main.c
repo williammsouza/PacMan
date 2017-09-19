@@ -111,7 +111,7 @@ int WINAPI WinMain (HINSTANCE hInstance,
             glEnd ();
             
             glBegin (GL_LINE_LOOP); //Linha vertical esquerda metade 2
-       			glColor3f (1.0f, 1.0f, 0.0f);   glVertex2f (-0.75f, -0.2f);
+       			glColor3f (1.0f, 1.0f, 0.0f);   glVertex2f (-0.75f, -0.1f);
            		glColor3f (1.0f, 1.0f, 0.0f);   glVertex2f (-0.75f, -0.55f);
             glEnd ();
        
@@ -124,8 +124,19 @@ int WINAPI WinMain (HINSTANCE hInstance,
        		
        		
        		glBegin (GL_LINE_LOOP); //Linha vertical direita metade 2
-       			glColor3f (1.0f, 1.0f, 0.0f);   glVertex2f (0.75f, -0.2f);
+       			glColor3f (1.0f, 1.0f, 0.0f);   glVertex2f (0.75f, -0.1f);
            		glColor3f (1.0f, 1.0f, 0.0f);   glVertex2f (0.75f, -0.55f);
+            glEnd ();
+            
+            
+            
+            	
+       		glBegin (GL_LINE_LOOP); //quadrado
+       			glColor3f (1.0f, 1.0f, 0.0f);   glVertex2f (-0.65f, 0.42f);
+           		glColor3f (1.0f, 1.0f, 0.0f);   glVertex2f (-0.65f, 0.1f);
+           	
+           		glColor3f (1.0f, 1.0f, 0.0f);   glVertex2f (-0.5f, 0.1f);
+           		glColor3f (1.0f, 1.0f, 0.0f);   glVertex2f (-0.5f, 0.42f);
             glEnd ();
        
        
